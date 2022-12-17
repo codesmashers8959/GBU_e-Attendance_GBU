@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Course List | GBU e-Attendance</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="../home/index.html">
+                <img src="./logo.png">
+            </a>
+        </div>
+        <div class="nav-item">
+            <ul>
+                <li><a href="../home/index.html">HOME</a></li>
+                <li><a href="https://www.gbu.ac.in/page/notices" target="_main">NOTIFICATION</a></li>
+                <li><a href="../about us/aboutUs.html">ABOUT US</a></li>
+                <li><a href="../contact us/conatctUs.html">CONTACT US</a></li>
+                <li><a href="../admin login/adminLogin.html">LOGOUT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container col-6 mt-5">
+        <h1 class="mb-1">Admin Dashboard</h1>
+        <hr>
+        <form>
+            <h3>Add Course</h3>
+            <label>Course Name:</label>
+            <input class="m-2" type="text">
+            <label> Course Code:</label>
+            <input class="m-2" type="text">
+            <button type="button" id="addBtn" class="btn btn-success m-2">Add Course</button>
+            <hr>
+        </form>
+        <ul class="list-group" id="parentList">
+        </ul>
+        <script src="./script3.js"></script>
+        <footer class="footer">
+            <div class="footer__addr">
+              <h1 class="footer__logo">Gautam Buddha University</h1>
+        
+              <h2>Contact</h2>
+        
+              <address>
+                Gautam Buddha University, Greater Noida,<br> Uttar Pradesh, India<br>
+        
+                <a class="footer__btn" href="mailto:codesmashers8959@gmail.com">Email Us</a>
+              </address>
+            </div>
+        
+            <ul class="footer__nav">
+              <li class="nav__item">
+                <h2 class="nav__title">Let's know us</h2>
+        
+                <ul class="nav__ul">
+                  <li>
+                    <a href="../about us/aboutUs.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="../contact us/conatctUs.html">Contact Us</a>
+                  </li>
+                </ul>
+              </li>
+        
+              <li class="nav__item nav__item--extra">
+                <h2 class="nav__title">GBU SITES</h2>
+        
+                <ul class="nav__ul nav__ul--extra">
+                  <li>
+                    <a href="https://www.gbu.ac.in/" target="_main">Official Site</a>
+                  </li>
+        
+                  <li>
+                    <a href="https://pravesh.gbu.ac.in/" target="_main">Admission Site</a>
+                  </li>
+        
+                  <li>
+                    <a href="https://erpfee.gbu.ac.in/OAP_OnlineFeePayU/Default.aspx" target="_main">Online Fee Deposit</a>
+                  </li>
+        
+                  <li>
+                    <a href="http://gbuexam.in/result/login.php" target="_main">Result Site</a>
+                  </li>
+        
+                  <li>
+                    <a href="https://www.gbu.ac.in/page/directory" target="_main">Contact Directory</a>
+                  </li>
+        
+                
+                </ul>
+              </li>
+              
+              <div class="legal">
+                <p>&copy; 2022 codesmashers. All rights reserved.</p>
+        
+              </div>
+            </ul>
+          </footer>
+</body>
+</html>
